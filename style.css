@@ -21,3 +21,12 @@ body {
   color: white;
   font-size: large;
 }
+
+a:hover{
+    color: red;
+}
+
+h1 {
+    color: lightblue;
+    text-shadow: 0 2px 3px 0 3px 4px black;
+}
