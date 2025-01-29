@@ -6,34 +6,42 @@
     <title>3.Seite</title>
     <header><button><a href = DeutschPortfolio.html>DP</a></button></header>
     <h1>Eigene Fähigkeiten und Interessen</h1><hr>
+    <link rel="stylesheet" href = "style.css">
 </head>
 <body>
     <ol>
-        <li><h3>Interessen</h3></li>
+        <li><u><h3>Interessen</h3></u></li>
         <ul>
-            <li>Kreative Projekte im Bereich Informatik durchführen</li>
-            <li>Code schreiben</li>
-            <li>In der Schule:</li>
-            Informatik , Mathe
-            <li>Video spiele spielen</li>
-            <li>Zauberwürfel lösen</li>
-        </ul>
+            <li>
+In der Schule:
+            </li>
+        Informatik, Mathe und Sport
+        <li>Videospiele spielen</li>
+        <li>Code zu schreiben</li>
+        <li>Zauberwürfel lösen</li>
+        <li>Interessanten Sachen lernen / neue Sachen </li>
+    </ul>
+<br><li><u><h3>Fähigkeiten</h3></u></li>
+<ul>
+    <li>
+        Ich kann sehr schnell lernen
+    </li>
+<li>Ich kann mich sehr gut Konzentrieren, wenn mir etwas Spaß macht</li>
+<li>Ich bin : Kreativ, Selbstständig, Belastbar und Hilfsbereit </li> 
+<li>Ich habe : Kommunikationsföhigkeit, Textkompetenz, Computerkenntnise und Mathematisches Verständnis</li>
+</ul>
     </ol>
-   
+
     
     
-<footer>
-    <button><a href = "Seite2.html">Zurück</a></button>
-    <button><a href = "Seite_4.html">Nächste</a></button>
-</footer>
+
+    <div class = "left-btn"><button><a href = "Seite2.html">Zurück</a></button></div>
+    <div class = "right-btn"><button><a href = "Seite_4.html">Nächste</a></button></div>
 </body>
 </html>
 
 <style>
 
-footer{
-    text-align: center;
-}
 
 a:hover{
     color: red;
@@ -41,9 +49,17 @@ a:hover{
 
 
 button{
-    font-family: Arial, Helvetica, sans-serif;
-    size: 130%;
-    font-size: 95%;
+        font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+display: flow-root;
+text-decoration: underline;
+width: 5px auto;
+height: auto;
+background-color: lightblue;
+font-size: 95%;
+size: 130%;
+font-weight: bold;
+transition: 0.3s;
 }
 
 
@@ -51,10 +67,13 @@ button{
 body {
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 130%;
+
 }
 
 ol {
     font-size: 130%;
 }
+
+.left-btn {float: left;}
+.right-btn { float: right;}
 </style>
