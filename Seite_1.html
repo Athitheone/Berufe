@@ -6,6 +6,7 @@
     <title>1.Seite</title>
     <button><a href = DeutschPortfolio.html>DP</a></button>
     <h1>Berufsfelder und Berufe Beispiele</h1><hr>
+    <link rel="stylesheet" href = "style.css">
 </head>
 <body>
     <ul><li><h2>Berufe</h2></li></ul>
@@ -61,11 +62,9 @@
 </tbody>
 </table>
 
-
-    <footer>
-        <button><a href = "DeutschPortfolio.html">Zurück</a></button>
-        <button><a href = "Seite2.html">Nächste</a></button>
-    </footer>
+<div class="left-btn">
+    <button><a href = "DeutschPortfolio.html">Zurück</a></button> </div>
+    <div class="right-btn"><button><a href = "Seite2.html">Nächste</a></button></div>
     
 </body>
 </html>
@@ -112,7 +111,6 @@ th {
 
 }
     
-footer{
-    text-align: center;
-}
+.left-btn { float: left; }
+.right-btn { float: right; }
     </style>
